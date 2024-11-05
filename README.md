@@ -1,4 +1,3 @@
-Here's a professional and comprehensive `README.md` file for your movie streaming platform project. This document covers the project description, installation, usage, component structure, technologies used, and contribution guidelines.
 
 ---
 
