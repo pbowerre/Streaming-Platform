@@ -15,10 +15,14 @@
   
   .movie-section {
     padding: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
   }
   
   .movie-grid {
     display: flex;
     gap: 10px;
+    justify-content: space-between;
   }
   

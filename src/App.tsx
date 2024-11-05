@@ -4,6 +4,11 @@ import './App.css';
 import Banner from './Components/Banner/Banner';
 import MovieCard from './Components/MovieCards/MovieCards';
 import SkeletonLoader from './Components/MovieCards/SkeletonLoader';
+import deadpool from './assets/deadpool.svg'
+import dune from './assets/desert.svg'
+import Trans from './assets/one.svg'
+import Joke from './assets/joker.svg'
+import furo from './assets/furo.svg'
 
 interface Movie {
   title: string;
@@ -18,11 +23,11 @@ const App: React.FC = () => {
     // Simulating API fetch with timeout
     setTimeout(() => {
       setMovies([
-        { title: 'Deadpool Wolverine', imageUrl: 'deadpool.jpg' },
-        { title: 'Dune', imageUrl: 'dune.jpg' },
-        { title: 'Transformers', imageUrl: 'transformers.jpg' },
-        { title: 'Joker', imageUrl: 'joker.jpg' },
-        { title: 'Furiosa', imageUrl: 'furiosa.jpg' },
+        { title: 'Deadpool Wolverine', imageUrl: deadpool },
+        { title: 'Dune', imageUrl: dune },
+        { title: 'Transformers', imageUrl: Trans },
+        { title: 'Joker', imageUrl: Joke },
+        { title: 'Furiosa', imageUrl: furo},
       ]);
       setLoading(false);
     }, 2000);

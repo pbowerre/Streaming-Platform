@@ -1,6 +1,6 @@
 /* src/components/MovieCards/SkeletonLoader.css */
 .skeleton-loader {
-    width: 150px;
+    width: 250px;
     height: 225px;
     background-color: #333;
     border-radius: 8px;
