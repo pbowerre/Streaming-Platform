@@ -1,0 +1,17 @@
+/* src/components/Banner/Banner.css */
+.banner {
+    background-image: url('banner-image.jpg');
+    background-size: cover;
+    color: white;
+    padding: 60px 20px;
+  }
+  
+  .banner-content {
+    max-width: 600px;
+  }
+  
+  .banner-buttons {
+    display: flex;
+    gap: 10px;
+  }
+  

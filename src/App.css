@@ -1,0 +1,16 @@
+/* src/App.css */
+.app {
+    background-color: #121212;
+    color: white;
+    font-family: Arial, sans-serif;
+  }
+  
+  .movie-section {
+    padding: 20px;
+  }
+  
+  .movie-grid {
+    display: flex;
+    gap: 10px;
+  }
+  
