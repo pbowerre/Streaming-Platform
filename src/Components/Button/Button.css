@@ -1,19 +1,29 @@
 /* src/components/Button/Button.css */
 .button {
-    padding: 10px 20px;
     border: none;
     cursor: pointer;
-    font-size: 16px;
     border-radius: 5px;
   }
   
   .primary {
-    background-color: #ff0000;
+    background-color: #ff2727;
+    padding: 10px 80px;
     color: white;
-  }
-  
-  .secondary {
-    background-color: #333;
+    font-size: 1.5rem;
+    border-radius: 30px;
+}
+
+.secondary {
+    background-color: transparent;
+    padding: 10px 20px;
     color: white;
+    font-size: 1.7rem;
+    border-radius: 50%;
+    border: 2px solid #fff;
+    width:50px;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
   }
   

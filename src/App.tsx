@@ -1,7 +1,6 @@
 // src/App.tsx
 import React, { useEffect, useState } from 'react';
 import './App.css';
-import Header from './Components/Header/Header';
 import Banner from './Components/Banner/Banner';
 import MovieCard from './Components/MovieCards/MovieCards';
 import SkeletonLoader from './Components/MovieCards/SkeletonLoader';
@@ -31,7 +30,6 @@ const App: React.FC = () => {
 
   return (
     <div className="app">
-      <Header />
       <Banner />
       <section className="movie-section">
         <h2>Recent Movies</h2>

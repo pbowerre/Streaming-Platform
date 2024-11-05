@@ -1,6 +1,6 @@
 // src/components/MovieCards/MovieCard.tsx
 import React from 'react';
-import './MovieCard.css';
+import './MovieCards.css';
 
 interface MovieCardProps {
   title: string;

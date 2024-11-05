@@ -1,6 +1,7 @@
 // src/components/Header/Header.tsx
 import React from 'react';
 import './Header.css';
+import profile from '../../assets/profile.png'
 
 const Header: React.FC = () => {
   return (
@@ -15,7 +16,7 @@ const Header: React.FC = () => {
       </nav>
       <div className="profile">
         <input type="text" placeholder="Search" />
-        <img src="profile.jpg" alt="User" className="profile-img" />
+        <img src={profile} alt="User" className="profile-img" />
       </div>
     </header>
   );
