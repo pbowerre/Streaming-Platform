@@ -24,7 +24,8 @@ const Header: React.FC = () => {
         </ul>
       </nav>
       <div className="profile">
-        <input type="text" placeholder="Search" />
+    
+        <input type="search" placeholder="Search" />
         <img src={profile} alt="User" className="profile-img" />
       </div>
     </header>
