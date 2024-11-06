@@ -1,12 +1,21 @@
 // src/components/Header/Header.tsx
-import React from 'react';
+import React, { useState } from 'react';
 import './Header.css';
-import profile from '../../assets/profile.png'
+import profile from '../../assets/profile.png';
 
 const Header: React.FC = () => {
+  const [isMenuOpen, setIsMenuOpen] = useState(false);
+
+  const toggleMenu = () => {
+    setIsMenuOpen(!isMenuOpen);
+  };
+
   return (
     <header className="header">
-      <nav className="navbar">
+      <div className="menu-icon" onClick={toggleMenu}>
+        ☰
+      </div>
+      <nav className={`navbar ${isMenuOpen ? 'open' : ''}`}>
         <ul>
           <li>Dashboard</li>
           <li>Movies</li>

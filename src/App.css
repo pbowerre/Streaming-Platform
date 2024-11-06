@@ -3,6 +3,7 @@
     color: white;
     font-family: Arial, sans-serif;
     background: linear-gradient(230deg, #0000005a, #010101ac), url('./assets/bg.svg');
+    background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
     height: calc(100dvh);
@@ -12,7 +13,6 @@
     padding: 10px 30px;
 
   }
-  
   .movie-section {
     padding: 20px;
     display: flex;
@@ -23,6 +23,8 @@
   .movie-grid {
     display: flex;
     gap: 10px;
-    justify-content: space-between;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
   }
   

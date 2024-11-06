@@ -3,17 +3,26 @@
     background-size: cover;
     color: white;
     padding: 60px 20px;
+    width: calc(100%);
   }
   
   .banner-content {
-    max-width: 50%;
+    width: 60%;
     display: flex;
     flex-direction: column;
     gap: 20px;
     padding: 10px;
   }
+  @media (max-width: 800px) {
+    .banner{
+      padding: 60px 5px;
+    }
+    .banner-content{
+      width: 100%;
+    }
+  }
   .banner-content h1{
-    font-size: 6.5rem;
+    font-size: clamp(3rem, 6vw + 1rem, 6.9rem);
   }
   .banner-content p span{
     color: #03ca0e;
